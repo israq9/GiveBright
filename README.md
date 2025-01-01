@@ -1,0 +1,2 @@
+# GiveBright
+Donation Management System
