@@ -1,0 +1,96 @@
+/* Progress Bar */
+body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    
+
+        background-image: url('uploads/background.jpg');
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+}
+.progress-bar-container {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+/* Campaign Section */
+.campaign {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f1f8e9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.campaign h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #2e7d32;
+}
+
+.campaign h3 a {
+    text-decoration: none;
+    color: #2e7d32;
+}
+
+.campaign h3 a:hover {
+    text-decoration: underline;
+}
+
+.campaign p {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.campaign-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Donate Form */
+.donate-form input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.donate-form button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.donate-form button:hover {
+    background-color: #388e3c;
+}
